@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#1a1424" />
+    <meta
+      name="description"
+      content="Feliz Día de las Flores Amarillas, Maely."
+    />
+    <title>Para Maely · Flores Amarillas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/petal.svg" type="image/svg+xml" />
+  </head>
+  <body>
+    <div class="world" aria-hidden="true">
+      <div class="sky">
+        <div class="sky__wash"></div>
+        <div class="sky__sunset"></div>
+        <div class="sky__warm"></div>
+        <div class="moon">
+          <span class="moon__disk"></span>
+        </div>
+        <div class="stars" id="stars"></div>
+      </div>
+
+      <svg class="hills hills--far" viewBox="0 0 400 160" preserveAspectRatio="none">
+        <path fill="#2a2240" d="M0 160 V92 L48 70 L96 104 L158 42 L214 96 L268 58 L332 102 L400 64 V160 Z" />
+      </svg>
+      <svg class="hills hills--mid" viewBox="0 0 400 180" preserveAspectRatio="none">
+        <path fill="#1d1830" d="M0 180 V110 L70 78 L130 128 L190 68 L250 118 L310 82 L400 120 V180 Z" />
+      </svg>
+
+      <div class="lake">
+        <div class="lake__glass"></div>
+        <div class="lake__shine"></div>
+        <div class="lake__ripple"></div>
+      </div>
+
+      <svg class="hills hills--near" viewBox="0 0 400 90" preserveAspectRatio="none">
+        <path fill="#16101f" d="M0 90 V48 C40 28 80 56 120 40 C170 20 210 52 260 34 C310 18 350 46 400 30 V90 Z" />
+      </svg>
+
+      <div class="fireflies" id="fireflies"></div>
+
+      <div class="lantern">
+        <span class="lantern__glow"></span>
+        <span class="lantern__post"></span>
+        <span class="lantern__cage"></span>
+        <span class="lantern__flame"></span>
+      </div>
+    </div>
+
+    <div class="grain" aria-hidden="true"></div>
+    <div class="vignette" aria-hidden="true"></div>
+    <div class="petals" id="petals" aria-hidden="true"></div>
+    <div class="drift" aria-hidden="true">
+      <span class="drift__petal drift__petal--back"></span>
+      <span class="drift__petal drift__petal--back"></span>
+      <span class="drift__petal drift__petal--back"></span>
+      <span class="drift__petal drift__petal--back"></span>
+      <span class="drift__petal drift__petal--mid"></span>
+      <span class="drift__petal drift__petal--mid"></span>
+      <span class="drift__petal drift__petal--mid"></span>
+      <span class="drift__petal drift__petal--mid"></span>
+      <span class="drift__petal drift__petal--front"></span>
+      <span class="drift__petal drift__petal--front"></span>
+      <span class="drift__petal drift__petal--front"></span>
+    </div>
+    <div class="sparkles" id="sparkles" aria-hidden="true"></div>
+    <div class="garden" aria-hidden="true">
+      <img class="garden__flower" src="assets/flower-side.svg" alt="" />
+      <img class="garden__flower" src="assets/flower.svg" alt="" />
+      <img class="garden__flower" src="assets/flower.svg" alt="" />
+      <img class="garden__flower" src="assets/flower.svg" alt="" />
+      <img class="garden__flower" src="assets/flower-side.svg" alt="" />
+    </div>
+    <div class="edge edge--left" aria-hidden="true">
+      <img src="assets/flower.svg" alt="" />
+      <img src="assets/flower-side.svg" alt="" />
+    </div>
+    <div class="edge edge--right" aria-hidden="true">
+      <img src="assets/flower-side.svg" alt="" />
+      <img src="assets/flower.svg" alt="" />
+    </div>
+    <div class="guard" id="guard" aria-hidden="true"></div>
+
+    <main class="stage">
+      <section class="view is-active" id="surprise" aria-labelledby="surprise-title">
+        <h1 id="surprise-title" class="view__title">Maely...</h1>
+        <p class="view__text">
+          Hay cosas que no se pueden cambiar,<br />
+          pero quizá sí podamos elegir cómo seguir.
+        </p>
+        <p class="view__invite">Tengo algo para ti</p>
+        <button class="btn" type="button" id="open">Abrir 🌻</button>
+      </section>
+
+      <section class="view view--day" id="celebrate" aria-labelledby="day-title" aria-hidden="true" inert>
+        <h2 id="day-title" class="day__title">
+          Feliz Día<br />
+          de las<br />
+          Flores Amarillas 🌻
+        </h2>
+        <p class="day__wish">
+          Que nunca te falten motivos<br />
+          para sonreír,<br />
+          flores para alegrarte<br />
+          y momentos bonitos<br />
+          para recordar.
+        </p>
+        <div class="hero">
+          <span class="hero__glow"></span>
+          <span class="hero__mote"></span>
+          <span class="hero__mote"></span>
+          <span class="hero__mote"></span>
+          <span class="hero__mote"></span>
+          <span class="hero__mote"></span>
+          <div class="capy-wrap">
+            <img
+              class="capy"
+              src="assets/capybara.png"
+              alt="Un capibara sosteniendo un ramo de flores amarillas"
+              width="864"
+              height="1152"
+            />
+          </div>
+        </div>
+        <p class="day__for">Para ti, Maely 💛</p>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
